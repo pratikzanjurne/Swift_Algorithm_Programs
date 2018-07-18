@@ -1,5 +1,5 @@
 /*
- *  Purpose - To detrmine the Strings are anagram or not.
+ *  Purpose - To print the Prime numbers from 0-1000.
  *  @author  Pratik Zanjurne
  *  @version 4.0
  *  @since   12-07-2018
