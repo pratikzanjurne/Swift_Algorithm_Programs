@@ -16,48 +16,89 @@ print("6. Bubble Sort for the String.")
 var choice:String = readLine()!
 switch(choice){
 case "1":
-{
-    
+    var integerArray = [6,5,4,3,2,3]
+    integerArray = u.doBubbleSortInteger(integerArray: integerArray, size: integerArray.count)
+    print("Enter the integer to serach.")
+    if let integer = readLine(){
+        if let integer = Int(integer){
+            let result:Bool = u.searchBinaryInteger(integerArray:integerArray,size:integerArray.count,integer:integer)
+            if result == true{
+                print("The entered integer is found in the Array.")
+            }else{
+                print("The entered integer is not found in the Array.")
+            }
+        }else{
+            print("Enter the integer value.")
+        }
     }
+    
 case "2":
-{
-    
+    var stringArray = ["a","g","y","a","c"]
+    stringArray = u.doBubbleSortString(stringArray: stringArray, size: stringArray.count)
+    print("Enter the string youy want to search in the array.")
+    let string = readLine()!
+    let result:Bool = u.searchBinaryString(stringArray:stringArray,size:stringArray.count,string:string)
+    if result == true{
+        print("The entered string is found in the array.")
+    }else{
+        print("The entered string was not found in the array.")
     }
+
 case "3":
-{   print("Enter the Integer array size.")
+  print("Enter the Integer array size.")
     if let size = readLine(){
         if let size = Int(size){
             var integerArray = [Int]()
             integerArray = u.getIntegerArray(size: size)
-            u.doInsertionSortInteger(integerArray:integerArray,size:size)
+            integerArray = u.doInsertionSortInteger(integerArray:integerArray,size:size)
+            print(integerArray)
         }else{
             print("Enter an Integer value.")
         }
     }
 
-    
-    }
 case "4":
-{  print("Enter the size of your string for the insertion sort.")
+  print("Enter the size of your string for the insertion sort.")
     if let size = readLine(){
         if let size = Int(size){
             print("Enter the string of size \(size)")
             var input = [String]()
             input = u.getStringArray(size: size)
-            u.doInsertionSortString(stringArray:input,size:size)
+            input = u.doInsertionSortString(stringArray:input,size:size)
+            print(input)
         }else{
             print("Enter the size in Integer value.")
         }
     }
-    }
+    
 case "5":
-{
-    
+    print("Enter the Integer array size for bubble sort.")
+    if let size = readLine(){
+        if let size = Int(size){
+            var integerArray = [Int]()
+            integerArray = u.getIntegerArray(size: size)
+        integerArray = u.doBubbleSortInteger(integerArray:integerArray,size:size)
+        print(integerArray)
+        }else{
+            print("Enter an Integer value.")
+        }
     }
+
 case "6":
-{
-    
+    print("Enter the size of your string for the bubble sort.")
+    if let size = readLine(){
+        if let size = Int(size){
+            print("Enter the string of size \(size)")
+            var input = [String]()
+            input = u.getStringArray(size: size)
+            input = u.doBubbleSortString(stringArray:input,size:size)
+            print(input)
+        }else{
+            print("Enter the size in Integer value.")
+        }
     }
+    
+    
 default:
     print("Please enter the correct choice.")
 }
