@@ -1,0 +1,22 @@
+[
+  {
+    "last_name" : "Zanjurne",
+    "phone_number" : "9689364545",
+    "first_name" : "Pratik",
+    "address" : {
+      "state" : "Maharashtra",
+      "city" : "415010",
+      "zip" : "415010"
+    }
+  },
+  {
+    "last_name" : "Zanjurne",
+    "phone_number" : 9860616030,
+    "first_name" : "Prasad",
+    "address" : {
+      "state" : "Maharashtra",
+      "city" : "Koregaon",
+      "zip" : "415510"
+    }
+  }
+]

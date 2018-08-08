@@ -4,7 +4,9 @@
  *  @version 4.0
  *  @since   19-07-2018
  */
+
 import Foundation
+
 let u = DayOfWeek()
 print("Enter the date.")
 if let date = readLine(){

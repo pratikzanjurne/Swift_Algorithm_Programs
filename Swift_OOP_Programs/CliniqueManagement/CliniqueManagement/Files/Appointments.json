@@ -1,0 +1,27 @@
+[
+  {
+    "date" : "02-08-2018",
+    "doctorId" : 1,
+    "patientId" : 1
+  },
+  {
+    "date" : "07-07-2007",
+    "doctorId" : 7,
+    "patientId" : 12
+  },
+  {
+    "date" : "09-01-2018",
+    "doctorId" : 234,
+    "patientId" : 15
+  },
+  {
+    "date" : "1-2-2018",
+    "doctorId" : 2,
+    "patientId" : 14
+  },
+  {
+    "date" : "09-02-2018",
+    "doctorId" : 3,
+    "patientId" : 32
+  }
+]

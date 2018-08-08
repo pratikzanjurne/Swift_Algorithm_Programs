@@ -1,0 +1,38 @@
+[
+  {
+    "name" : "Pratik",
+    "specialization" : "Heart",
+    "id" : 234,
+    "availability" : "AM"
+  },
+  {
+    "name" : "Prasad",
+    "specialization" : "MA",
+    "id" : 2,
+    "availability" : "AM"
+  },
+  {
+    "name" : "Pratik",
+    "specialization" : "MD",
+    "id" : 1,
+    "availability" : "PM"
+  },
+  {
+    "name" : "Amit",
+    "specialization" : "MBBS",
+    "id" : 3,
+    "availability" : "AM"
+  },
+  {
+    "name" : "Pradar",
+    "specialization" : "qw",
+    "id" : 12,
+    "availability" : "AM"
+  },
+  {
+    "name" : "Mohit",
+    "specialization" : "DEd",
+    "id" : 7,
+    "availability" : "Both"
+  }
+]
