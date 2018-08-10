@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  FoodTrackerNew
-//
-//  Created by BridgeLabz Solutions LLP  on 8/7/18.
-//  Copyright © 2018 Apple Inc. All rights reserved.
-//
 
 import UIKit
 
@@ -29,6 +22,16 @@ class ViewController: UIViewController,UITextFieldDelegate,UIImagePickerControll
         imagePicker.sourceType = .photoLibrary
         imagePicker.delegate = self
         present(imagePicker, animated: true, completion: nil)
+    }
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        dismiss(animated: true, completion: nil)
+    }
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        guard let selectedImage = info[UIImagePickerControllerOriginalImage] as? UIImage else {
+            fatalError("Cant find the image.")
+        }
+        photoImageView.image = selectedImage
+        dismiss(animated: true, completion: nil)
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
