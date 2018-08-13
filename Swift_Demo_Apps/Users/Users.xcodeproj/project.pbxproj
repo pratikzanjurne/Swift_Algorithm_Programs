@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3E6777211EFB160075FB42 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E6776211EFB160075FB42 /* Presenter.swift */; };
 		0AA6B54E211D45260049D6BF /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6B54D211D45260049D6BF /* UserTableViewController.swift */; };
 		0AA6B550211D46B80049D6BF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6B54F211D46B80049D6BF /* User.swift */; };
 		0ABA3985211C7124008DD609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABA3984211C7124008DD609 /* AppDelegate.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3E6776211EFB160075FB42 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		0AA6B54D211D45260049D6BF /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 		0AA6B54F211D46B80049D6BF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0ABA3981211C7124008DD609 /* Users.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Users.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +111,7 @@
 				0ABA39B2211C7733008DD609 /* UserTableViewCell.swift */,
 				0AA6B54D211D45260049D6BF /* UserTableViewController.swift */,
 				0AA6B54F211D46B80049D6BF /* User.swift */,
+				0A3E6776211EFB160075FB42 /* Presenter.swift */,
 			);
 			path = Users;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3E6777211EFB160075FB42 /* Presenter.swift in Sources */,
 				0ABA39B3211C7733008DD609 /* UserTableViewCell.swift in Sources */,
 				0AA6B54E211D45260049D6BF /* UserTableViewController.swift in Sources */,
 				0AA6B550211D46B80049D6BF /* User.swift in Sources */,

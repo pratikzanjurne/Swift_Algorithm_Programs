@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3E6775211EA97C0075FB42 /* FirstNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E6774211EA97C0075FB42 /* FirstNavigationController.swift */; };
 		0AA6B59C211D97880049D6BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6B59B211D97880049D6BF /* AppDelegate.swift */; };
 		0AA6B59E211D97880049D6BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6B59D211D97880049D6BF /* ViewController.swift */; };
 		0AA6B5A1211D97880049D6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA6B59F211D97880049D6BF /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3E6774211EA97C0075FB42 /* FirstNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNavigationController.swift; sourceTree = "<group>"; };
 		0AA6B598211D97880049D6BF /* TransferData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransferData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA6B59B211D97880049D6BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AA6B59D211D97880049D6BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				0AA6B5A2211D97880049D6BF /* Assets.xcassets */,
 				0AA6B5A4211D97880049D6BF /* LaunchScreen.storyboard */,
 				0AA6B5A7211D97880049D6BF /* Info.plist */,
+				0A3E6774211EA97C0075FB42 /* FirstNavigationController.swift */,
 			);
 			path = TransferData;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				0AA6B5CA211D98DF0049D6BF /* SecondViewController.swift in Sources */,
 				0AA6B59E211D97880049D6BF /* ViewController.swift in Sources */,
+				0A3E6775211EA97C0075FB42 /* FirstNavigationController.swift in Sources */,
 				0AA6B59C211D97880049D6BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

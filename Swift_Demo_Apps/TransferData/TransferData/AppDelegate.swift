@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  TransferData
-//
-//  Created by BridgeLabz Solutions LLP  on 8/10/18.
-//  Copyright © 2018 Apple Inc. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

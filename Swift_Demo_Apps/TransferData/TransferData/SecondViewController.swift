@@ -26,14 +26,7 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func back(_ sender: Any) {
-        performSegue(withIdentifier: "line", sender: self)
-        
-    }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc = segue.destination as! ViewController
-        vc.text = ""
-    }
+
     @IBAction func sliderAction(_ sender: Any) {
         let currentValue = Int(sliderValue.value*100)
         print(currentValue)

@@ -18,23 +18,18 @@ class ViewController: UIViewController,UITextFieldDelegate {
 
     @IBAction func buttonAction(_ sender: Any) {
         self.text = textData.text!
-        performSegue(withIdentifier: "line", sender: self)
-        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! SecondViewController
         vc.name = text
-        
     }
-     func textFieldDidEndEditing(_ textField: UITextField) {
+    func textFieldDidEndEditing(_ textField: UITextField) {
         self.text = textData.text!
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textData.resignFirstResponder()
         return true
     }
-    
-    
 }
 
